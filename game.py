@@ -13,4 +13,4 @@ while True:
             print(f"Computer chose {computer_choice}, you chose {user_choice}. Computer Wins")
         elif (user_choice == "rock" and computer_choice == "scissors") or (user_choice == "paper" and computer_choice == "rock") or (user_choice == "scissors" and computer_choice == "paper"):
             print(f"Computer chose {computer_choice}, you chose {user_choice}. Congarts, you win!!")
-        
+print("Game Over")
