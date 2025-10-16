@@ -1,7 +1,7 @@
-list1 = ['a', 'b', 'c', 'd', 'e', 'A']
-vowel = "aeiou"
-for letter in list1[:]:
-    if letter.lower() in vowel:
-        list1.remove(letter)
-    else:
-        print(letter, end='')
+from pathlib import Path
+
+file_path = Path("jinx.gft")
+if file_path.exists:
+    print("yea")
+else:
+    print("nah")

@@ -1,3 +1,6 @@
 myproject
 __pycache__
 .vscode
+*.jpeg
+*.jpg
+*.ipynb

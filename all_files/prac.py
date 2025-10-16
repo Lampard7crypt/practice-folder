@@ -1,11 +1,8 @@
 import csv
 
 
-with open("students.csv", "w")as file:
-    writer = csv.writer(file)
-    writer.writerow(["name", "home"])
-    name = input("Name: ")
-    home = input("Home: ")
-    writer.writerow([name, home])
-
-
+with open("forest.jpeg", "rb")as file:
+    data = file.read()
+    lessdata = data[:]
+with open("new.jpeg", 'wb') as f:
+    f.write(lessdata)
