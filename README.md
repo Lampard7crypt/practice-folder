@@ -1,5 +1,5 @@
 
-![👋 Hi, my name is Tyler King](./github-header-image.png)
+![👋 Hi, my name is Tyler King](./github-header-image.jpg)
 
 ![Profile views](https://komarev.com/ghpvc/?username=Lampard7crypt&label=Profile%20views&color=0e75b6&style=flat)
 <div id="toc">
