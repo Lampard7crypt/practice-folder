@@ -1,3 +1,18 @@
+# =========================================================================================================
+# QR code generator!
+# import qrcode
+# link = input("Link of the place you want your qrcode to point to: ")
+# qr = qrcode.QRCode()
+# qr.add_data(link)
+# qr.make(fit=True)
+# img = qr.make_image(fill_color="black", back_color='purple')
+# img.save('outputqr.png')
+# print('Saved!')
+
+
+
+# =========================================================================================================
+
 # rock paper scissors game!
 import random
 def rockpaperscissors():
@@ -63,14 +78,8 @@ def rockpaperscissors():
 		print("Draw!")
 	else:
 		print('Computer wins!')
-
-rockpaperscissors()
-
-
-
-
-
 # =========================================================================================================
+
 # Write a function to recursively reverse a nested list.
 # reverse_nested([1, [2, [3, 4], 5]])  # Output: [ [5, [4, 3], 2], 1 ]
 def reverse_nested(lst):
@@ -80,14 +89,17 @@ def reverse_nested(lst):
         return lst
 
 # =========================================================================================================
+
 # Write a function that returns True if a string is a palindrome, ignoring:
 # - case
 # - spaces
 # - punctuation !"#$%&'()*+,-./:;<=>?@[\\]^_{|}~.
 # is_palindrome("A man, a plan, a canal: Panama")  # True
 # is_palindrome("No lemon, no melon")              # True
+
 # =========================================================================================================
-# Number guessing!
+
+# Number guessing game!
 import random
 def guess():
 	lst = []
@@ -125,4 +137,5 @@ def guess():
 				return
 			else:
 				continue
+
 # =========================================================================================================
