@@ -1,3 +1,6 @@
-nested_list = [[1, 2, 3], ['sam', 'kevin']]
-final_list = [i for x in nested_list for i in x]
-print(nested_list)
+# ========================================================================================
+# Learn more about Python Sort and sorted functions!
+def sort_by_age(s: list):
+    return sorted(s, key=lambda item: item[1])
+
+print(sort_by_age([('Alice', 30), ('Bob', 25), ('Eve', 35)]))

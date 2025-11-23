@@ -1,4 +1,4 @@
-instruction = input("TYpe 'add' to add, 'remove' to remove, and 'view' to view")
+instruction = input("Type 'add' to add, 'remove' to remove, and 'view' to view")
 task_dict = {}
 
 if instruction.lower() == 'add':
